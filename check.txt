@@ -1,2 +1,20 @@
 check up 
 second
+
+git clone https://harshpanchalcs@github.com/harshpanchalcs/LIOUS_WebSite.git
+
+cd LIOUS_WebSite
+
+git branch devangi-firstbranch
+
+git branch
+
+git checkout devangi-firstbranch
+
+git status
+
+git add .
+
+git commit -m "first test"
+
+git push https://harshpanchalcs@github.com/harshpanchalcs/LIOUS_WebSite.git devangi-firstbranch 
