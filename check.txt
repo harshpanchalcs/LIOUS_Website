@@ -1,5 +1,5 @@
-check up 
-second
+Steps for git changes
+TODO: Work in Progress
 
 git clone https://harshpanchalcs@github.com/harshpanchalcs/LIOUS_WebSite.git
 
