@@ -1,0 +1,151 @@
+.lious-healthcare-logo-1 {
+  position: absolute;
+  height: 14.29%;
+  width: 33.78%;
+  top: 0;
+  right: 33.11%;
+  bottom: 85.71%;
+  left: 33.11%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.select-role,
+.select1 {
+  position: relative;
+  line-height: 18px;
+}
+.select1 {
+  line-height: 20px;
+  z-index: 0;
+}
+.arrowlineupdown-icon1 {
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 8px);
+  right: 12px;
+  width: 16px;
+  height: 16px;
+  z-index: 1;
+}
+.form,
+.form1 {
+  border-radius: var(--br-5xs);
+  background-color: var(--white-100);
+  border: 1px solid var(--black-10);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.form1 {
+  box-sizing: border-box;
+  width: 388px;
+  height: 40px;
+  padding: var(--padding-5xs) var(--padding-base);
+  position: relative;
+  font-size: var(--regular-size);
+  color: var(--black-100);
+}
+.form {
+  position: absolute;
+  top: calc(50% - 153px);
+  left: calc(50% - 214px);
+  padding: var(--padding-base) var(--padding-xl);
+  gap: var(--gap-9xs);
+}
+.text3 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--regular-size);
+  line-height: 20px;
+  color: var(--black-100);
+}
+.form2 {
+  position: absolute;
+  top: calc(50% - 36px);
+  left: calc(50% - 214px);
+  border-radius: var(--br-5xs);
+  background-color: var(--white-100);
+  border: 1px solid var(--black-10);
+  box-sizing: border-box;
+  width: 428px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-base) var(--padding-xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.text4 {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+}
+.button {
+  border-radius: var(--br-5xs);
+  background-color: var(--black-100);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-base);
+  align-items: center;
+  justify-content: center;
+}
+.text5 {
+  position: relative;
+  line-height: 20px;
+}
+.button-parent,
+.button1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button1 {
+  border-radius: var(--br-5xs);
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-base);
+  color: var(--black-100);
+}
+.button-parent {
+  position: absolute;
+  top: 289.5px;
+  left: calc(50% - 75.5px);
+  overflow: hidden;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  font-size: var(--regular-size);
+  color: var(--white-100);
+}
+.form-parent {
+  position: absolute;
+  height: 81.93%;
+  width: 100%;
+  top: 18.07%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-base);
+  background-color: #e5ecf6;
+}
+.lious-healthcare-logo-1-parent {
+  position: absolute;
+  top: calc(50% - 278.9px);
+  left: 432px;
+  width: 576px;
+  height: 557.81px;
+}
+.login {
+  position: relative;
+  border-radius: var(--br-base);
+  background-color: var(--white-100);
+  width: 1440px;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--regular1-size);
+  color: var(--black-40);
+  font-family: var(--semibold);
+}

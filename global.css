@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --semibold: Inter;
+
+  /* font sizes */
+  --semibold-size: 18px;
+  --regular-size: 14px;
+  --regular1-size: 12px;
+
+  /* Colors */
+  --black-100: #1c1c1c;
+  --black-20: rgba(0, 0, 0, 0.2);
+  --black-40: rgba(0, 0, 0, 0.4);
+  --black-10: rgba(0, 0, 0, 0.1);
+  --white-100: #fff;
+
+  /* Gaps */
+  --gap-9xs: 4px;
+
+  /* Paddings */
+  --padding-5xs: 8px;
+  --padding-base: 16px;
+  --padding-xl: 20px;
+
+  /* border radiuses */
+  --br-5xs: 8px;
+  --br-base: 16px;
+}
