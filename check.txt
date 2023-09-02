@@ -1,2 +1,13 @@
 check up 
 second
+
+git clone https://harshpanchalcs@github.com/harshpanchalcs/LIOUS_WebSite.git
+
+cd LIOUS_WebSite
+
+git branch devangi-firstbranch
+
+git branch
+
+git checkout devangi-firstbranch
+
