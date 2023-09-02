@@ -11,3 +11,8 @@ git branch
 
 git checkout devangi-firstbranch
 
+git status
+
+git add .
+
+git commit -m "first test"
