@@ -8,18 +8,16 @@ body {
   --semibold: Inter;
 
   /* font sizes */
-  --semibold-size: 24px;
-  --semibold1-size: 18px;
-  --semibold2-size: 14px;
-  --regular-size: 14px;
-  --regular1-size: 12px;
+  --regular-size: 12px;
+  --semibold-size: 14px;
+  --semibold1-size: 24px;
+  --semibold2-size: 18px;
 
   /* Colors */
+  --white-100: #fff;
   --black-100: #1c1c1c;
-  --black-20: rgba(0, 0, 0, 0.2);
   --black-40: rgba(0, 0, 0, 0.4);
   --black-10: rgba(0, 0, 0, 0.1);
-  --white-100: #fff;
   --black-5: rgba(0, 0, 0, 0.05);
 
   /* Gaps */
@@ -31,6 +29,6 @@ body {
   --padding-xl: 20px;
 
   /* border radiuses */
-  --br-5xs: 8px;
   --br-base: 16px;
+  --br-5xs: 8px;
 }
