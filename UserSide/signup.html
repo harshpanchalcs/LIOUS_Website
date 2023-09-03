@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./signup.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="signup">
+      <div class="form-container">
+        <div class="form4">
+          <div class="title5">Company Name</div>
+          <div class="text12">Name of Your Company</div>
+        </div>
+        <div class="form5">
+          <div class="title5">CIN No. of the Company</div>
+          <div class="text12">Enter CIN No.</div>
+        </div>
+        <div class="form6">
+          <div class="title5">Your Full Name</div>
+          <div class="text12">Enter Your Name here</div>
+        </div>
+        <div class="form7">
+          <div class="title5">Your Email ID</div>
+          <div class="text12">Enter Your Email ID here</div>
+        </div>
+        <div class="form8">
+          <div class="title5">Set Up a New Password</div>
+          <div class="text12">Password has to be at least 8 digits</div>
+        </div>
+        <div class="form9">
+          <div class="title5">Confirm your Password</div>
+          <div class="text12">Enter Same Password as above</div>
+        </div>
+        <img class="eyeslash-icon" alt="" src="./public/eyeslash.svg" />
+
+        <img class="checksquare-icon1" alt="" src="./public/checksquare.svg" />
+
+        <div class="form10">
+          <div class="title5">Your Contact Number</div>
+          <div class="text18">+91</div>
+        </div>
+        <img class="eyeslash-icon1" alt="" src="./public/eyeslash.svg" />
+
+        <div class="button-container">
+          <div class="button4">
+            <div class="text19">Continue</div>
+          </div>
+          <div class="button5">
+            <div class="text20">Back to Login</div>
+          </div>
+        </div>
+        <div class="create-a-new">Create A New Account</div>
+        <img
+          class="arrowleft-icon2"
+          alt=""
+          src="./public/arrowleft.svg"
+          id="arrowLeftIcon"
+        />
+      </div>
+      <img
+        class="lious-healthcare-logo-12"
+        alt=""
+        src="./public/lious-healthcare-logo-1@2x.png"
+      />
+
+      <div class="by-creating-an-container1">
+        <span class="by-creating-an1"
+          >By creating an account, I agree to our
+        </span>
+        <span class="terms-of-use1">Terms of Use</span>
+        <span class="span4"> </span>
+        <span class="by-creating-an1">&</span>
+        <span class="span4"> </span>
+        <span class="terms-of-use1">
+          <span>Privacy Policy</span>
+          <span class="span4"> </span>
+        </span>
+      </div>
+    </div>
+
+    <script>
+      var arrowLeftIcon = document.getElementById("arrowLeftIcon");
+      if (arrowLeftIcon) {
+        arrowLeftIcon.addEventListener("click", function (e) {
+          window.location.href = "./login.html";
+        });
+      }
+      </script>
+  </body>
+</html>

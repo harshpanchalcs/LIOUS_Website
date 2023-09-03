@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./login.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="login">
+      <div class="lious-healthcare-logo-1-parent">
+        <img
+          class="lious-healthcare-logo-13"
+          alt=""
+          src="../public/lious-healthcare-logo-1@2x.png"
+        />
+
+        <div class="frame-div"> 
+          <div class="form11">
+            <div class="title12">Email Address</div>
+            <input type="text" class="text21" id="Login_Email" placeholder="Enter Your Email Address Here"></input>
+          </div>
+          <div class="form12">
+            <div class="title12">Password</div>
+            <input type="password" class="text21" id="Login_Password" placeholder="Enter Your Password Here"></input>
+          </div>
+          
+          <div class="button-parent1">
+            <div class="button6">
+              <a class="text23" href="./forgot-password.html">Forgot Password?</a>
+            </div>
+            <button class="button7" type="login" id="login">
+              <div class="text24">Log In</div>
+            </button>
+            <button class="button8" type="signup" id="signup">
+              <div class="text25">Create a New Account</div>
+            </button>
+          </div>
+        </div>
+
+        <script>
+          document.getElementById("login").addEventListener("click", function (event) {
+              
+              const email = document.getElementById("Login_Email").value;
+              const password = document.getElementById("Login_Password").value;
+              
+              // Hardcoded credentials for demonstration
+              if (email === "user@example.com" && password === "password123") {
+                  window.location.href = "./home.html"; // Redirect to home page
+              } else {
+                  alert("Invalid email or password. Please try again.");
+              }
+          });
+
+          document.getElementById("signup").addEventListener("click", function (event) {
+              window.location.href = "./signup.html"; // Redirect to signup page
+          });
+
+        </script>
+
+      </div>
+    </div>
+  </body>
+</html>
