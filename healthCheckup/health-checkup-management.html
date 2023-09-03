@@ -40,8 +40,8 @@
               alt=""
               src="./public/chartpieslice3.svg"
             />
-
-            <div class="text22">Dashboard</div>
+            <!-- <a href=" ">Dashboard</a> -->
+            <div class="text22" id="dashboard">Dashboard</div>
             <img
               class="arrowlineright2-icon5"
               alt=""
@@ -973,6 +973,15 @@
     </div>
 
     <script>
+     const dashboard = document.getElementById('dashboard');
+     dashboard.addEventListener('click', function() {
+     const pageURL = 'https://www.google.com'; 
+     window.location.href = pageURL;
+});
+
+
+
+
       var searchContainer = document.getElementById("searchContainer");
       if (searchContainer) {
         searchContainer.addEventListener("click", function (e) {

@@ -74,6 +74,9 @@
   position: relative;
   line-height: 20px;
   z-index: 1;
+  color: black;
+  cursor: pointer;
+  
 }
 .arrowlineright2-icon5 {
   position: absolute;
