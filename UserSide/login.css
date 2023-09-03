@@ -87,6 +87,7 @@
   justify-content: center;
   color: var(--white-100);
   border: 0px;
+  cursor: pointer;
 }
 .text25 {
   position: relative;
@@ -102,6 +103,7 @@
   align-items: center;
   justify-content: center;
   border: 0px;
+  cursor: pointer;
 }
 .button-parent1 {
   position: absolute;
