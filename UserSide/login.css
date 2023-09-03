@@ -16,6 +16,7 @@
   font-size: var(--regular-size);
   line-height: 20px;
   color: var(--black-100);
+  border: 0px;
 }
 .form11 {
   position: absolute;
@@ -60,6 +61,7 @@
   position: relative;
   text-decoration: underline;
   line-height: 20px;
+  color: var(--black-100);
 }
 .button6 {
   border-radius: var(--br-5xs);
@@ -81,10 +83,10 @@
   display: flex;
   flex-direction: row;
   padding: var(--padding-5xs) var(--padding-base);
-  box-sizing: border-box;
   align-items: center;
   justify-content: center;
   color: var(--white-100);
+  border: 0px;
 }
 .text25 {
   position: relative;
@@ -97,9 +99,9 @@
   display: flex;
   flex-direction: row;
   padding: var(--padding-5xs) var(--padding-base);
-  box-sizing: border-box;
   align-items: center;
   justify-content: center;
+  border: 0px;
 }
 .button-parent1 {
   position: absolute;
