@@ -16,43 +16,44 @@
       <div class="form-container">
         <div class="form4">
           <div class="title5">Company Name</div>
-          <div class="text12">Name of Your Company</div>
+          <input type="text" class="text12" id="Company_Name" placeholder="Name of Your Company"></input>
         </div>
         <div class="form5">
           <div class="title5">CIN No. of the Company</div>
-          <div class="text12">Enter CIN No.</div>
+          <input type="text" class="text12" id="Company_CIN" placeholder="Enter CIN No."></input>
         </div>
         <div class="form6">
           <div class="title5">Your Full Name</div>
-          <div class="text12">Enter Your Name here</div>
+          <input type="text" class="text12" id="Name" placeholder="Enter Your Name here"></input>
         </div>
         <div class="form7">
           <div class="title5">Your Email ID</div>
-          <div class="text12">Enter Your Email ID here</div>
+          <input type="text" class="text12" id="Email_Id" placeholder="Enter Your Email ID here"></input>
         </div>
         <div class="form8">
           <div class="title5">Set Up a New Password</div>
-          <div class="text12">Password has to be at least 8 digits</div>
+          <input type="password" class="text12" id="New_Password" placeholder="Password has to be at least 8 digits"></input>
         </div>
         <div class="form9">
           <div class="title5">Confirm your Password</div>
-          <div class="text12">Enter Same Password as above</div>
+          <input type="password" class="text12" id="Login_Password" placeholder="Enter Same Password as above"></input>
         </div>
-        <img class="eyeslash-icon" alt="" src="./public/eyeslash.svg" />
 
-        <img class="checksquare-icon1" alt="" src="./public/checksquare.svg" />
+        <!-- <img class="checksquare-icon1" alt="" src="./public/checksquare.svg" /> -->
+        <div class="checksquare-icon1">
+          <input type="checkbox" id="Accept_Terms" required>
+        </div>
 
         <div class="form10">
           <div class="title5">Your Contact Number</div>
-          <div class="text18">+91</div>
+          <input type="text" class="text12" id="Contact_No" value="+91 "></input>
         </div>
-        <img class="eyeslash-icon1" alt="" src="./public/eyeslash.svg" />
 
         <div class="button-container">
-          <div class="button4">
+          <div class="button4" type="button" id="continue">
             <div class="text19">Continue</div>
           </div>
-          <div class="button5">
+          <div class="button5" type="button" id="back_to_login">
             <div class="text20">Back to Login</div>
           </div>
         </div>
@@ -74,24 +75,27 @@
         <span class="by-creating-an1"
           >By creating an account, I agree to our
         </span>
-        <span class="terms-of-use1">Terms of Use</span>
+        <a class="terms-of-use1" href="google.com">Terms of Use</a>
         <span class="span4"> </span>
         <span class="by-creating-an1">&</span>
         <span class="span4"> </span>
-        <span class="terms-of-use1">
-          <span>Privacy Policy</span>
-          <span class="span4"> </span>
-        </span>
+        <a class="terms-of-use1" href="google.com">Privacy Policy</a>
+        <span class="span4"> </span>
       </div>
     </div>
 
     <script>
-      var arrowLeftIcon = document.getElementById("arrowLeftIcon");
-      if (arrowLeftIcon) {
-        arrowLeftIcon.addEventListener("click", function (e) {
+      var arrowLeftIcon = document.getElementById("arrowLeftIcon").addEventListener("click", function (event) {
           window.location.href = "./login.html";
         });
-      }
-      </script>
+      
+      var arrowLeftIcon = document.getElementById("continue").addEventListener("click", function (event) {
+          window.location.href = "./verify.html";
+        });
+
+      var arrowLeftIcon = document.getElementById("back_to_login").addEventListener("click", function (event) {
+          window.location.href = "./login.html";
+        });
+    </script>
   </body>
 </html>
