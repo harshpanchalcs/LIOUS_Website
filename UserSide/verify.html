@@ -16,19 +16,21 @@
       <div class="form-group">
         <div class="form2">
           <div class="title3">Your Email ID</div>
-          <div class="text8">organisation@mail.com</div>
+          <input type="text" class="text8" id="Email_Id" placeholder="organisation@mail.com"></input>
         </div>
         <div class="form3">
           <div class="title3">Enter OTP</div>
-          <div class="text9">******</div>
+          <input type="password" class="text9" id="OTP" placeholder="******"></input>
         </div>
-        <img class="checksquare-icon" alt="" src="./public/checksquare.svg" />
-
+        <!-- <img class="checksquare-icon" alt="" src="./public/checksquare.svg" /> -->
+        <div class="checksquare-icon">
+          <input type="checkbox" id="Accept_Terms">
+        </div>
         <div class="button-group">
-          <div class="button2">
+          <div class="button2" type="button" id="confirm">
             <div class="text10">Confirm</div>
           </div>
-          <div class="button3">
+          <div class="button3" type="button" id="back_to_signup">
             <div class="text11">Back to Create an Account</div>
           </div>
         </div>
@@ -50,24 +52,27 @@
         <span class="by-creating-an"
           >By creating an account, I agree to our
         </span>
-        <span class="terms-of-use">Terms of Use</span>
+        <a class="terms-of-use" href="google.com">Terms of Use</a>
         <span class="span"> </span>
         <span class="by-creating-an">&</span>
         <span class="span"> </span>
-        <span class="terms-of-use">
-          <span>Privacy Policy</span>
-          <span class="span"> </span>
-        </span>
+        <a class="terms-of-use" href="google.com">Privacy Policy</a>
+        <span class="span"> </span>
       </div>
     </div>
 
     <script>
-      var arrowLeftIcon = document.getElementById("arrowLeftIcon");
-      if (arrowLeftIcon) {
-        arrowLeftIcon.addEventListener("click", function (e) {
+      var arrowLeftIcon = document.getElementById("arrowLeftIcon").addEventListener("click", function (event) {
           window.location.href = "./signup.html";
         });
-      }
-      </script>
+
+      var arrowLeftIcon = document.getElementById("confirm").addEventListener("click", function (event) {
+          window.location.href = "./login.html";
+        });
+
+      var arrowLeftIcon = document.getElementById("back_to_signup").addEventListener("click", function (event) {
+          window.location.href = "./signup.html";
+        });
+    </script>
   </body>
 </html>

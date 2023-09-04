@@ -8,6 +8,7 @@
   font-size: var(--regular-size);
   line-height: 20px;
   color: var(--black-100);
+  border: 0px;
 }
 .form2 {
   position: absolute;
@@ -31,6 +32,7 @@
   font-size: var(--regular-size);
   line-height: 20px;
   color: var(--color-gray-200);
+  border: 0px;
 }
 .form3 {
   position: absolute;
@@ -52,8 +54,9 @@
   position: absolute;
   top: 318px;
   left: 74px;
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
+  color: var(--black-100);
 }
 .text10 {
   position: relative;
@@ -70,6 +73,7 @@
   box-sizing: border-box;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 .text11 {
   position: relative;
@@ -86,6 +90,7 @@
   align-items: center;
   justify-content: center;
   color: var(--black-100);
+  cursor: pointer;
 }
 .button-group {
   position: absolute;
@@ -140,6 +145,7 @@
 }
 .terms-of-use {
   text-decoration: underline;
+  color: var(--black-100);
 }
 .span {
   color: var(--color-dimgray);
@@ -156,7 +162,7 @@
   position: relative;
   border-radius: var(--br-base);
   background-color: var(--white-100);
-  width: 100%;
+  width: 1440px;
   height: 1024px;
   overflow: hidden;
   text-align: left;
