@@ -40,7 +40,6 @@
               alt=""
               src="./public/chartpieslice3.svg"
             />
-            <!-- <a href=" ">Dashboard</a> -->
             <div class="text22" id="dashboard">Dashboard</div>
             <img
               class="arrowlineright2-icon5"
@@ -50,16 +49,7 @@
           </div>
           <div class="sidebar-item1">
             <img class="buildings-icon" alt="" src="./public/buildings.svg" />
-
             <div class="text22" id="organize">Organizational Management</div>
-              <!-- <p class="organizational">Organizational</p>
-              <p class="organizational">Management</p> -->
-            <!-- </div> -->
-            <!-- <img
-              class="arrowlineright2-icon5"
-              alt=""
-              src="./public/arrowlineright21.svg"
-            /> -->
           </div>
           <div class="sidebar-item1">
             <img
@@ -67,11 +57,7 @@
               alt=""
               src="./public/clipboardtext1.svg"
             />
-
             <div class="text22" id="registration">Registration Management </div>
-              <!-- <p class="organizational">Registration</p>
-              <p class="organizational">Management</p>
-            </div> -->
             <img
               class="arrowlineright2-icon5"
               alt=""
@@ -84,45 +70,41 @@
               alt=""
               src="./public/firstaidkit1.svg"
             />
-
-            <div class="text22">
-              <p class="organizational">Health Checkup</p>
-              <p class="organizational">Management</p>
-            </div>
+            <div class="text22" id="health">Health Checkup Management  </div>          
             <img
               class="arrowlineright2-icon5"
               alt=""
               src="./public/arrowlineright21.svg"
             />
           </div>
-          <div class="sidebar-item4">
-            <div class="sidebar-item-child"></div>
-            <img
-              class="arrowlineright2-icon9"
-              alt=""
-              src="./public/arrowlineright21.svg"
-            />
+            <div class="sidebar-item4 sub-healthcheck" style="display:none">
+              <div class="sidebar-item-child"></div>
+              <img
+                class="arrowlineright2-icon9"
+                alt=""
+                src="./public/arrowlineright21.svg"
+              />
+              <img
+                class="calendarplus-icon"
+                alt=""
+                src="./public/calendarplus.svg"
+              />
+              <div class="text26" id="health_active" >Active Requests</div>
+            </div>
+            <div class="sidebar-item5 sub-healthcheck" style="display:none">
+              <div class="sidebar-item-item"></div>
+              <img
+                class="arrowlineright2-icon10"
+                alt=""
+                src="./public/arrowlineright21.svg"
+              />
 
-            <img
-              class="calendarplus-icon"
-              alt=""
-              src="./public/calendarplus.svg"
-            />
+              <img class="calendarplus-icon" alt="" src="./public/notebook.svg" />
 
-            <div class="text26">Active Requests</div>
-          </div>
-          <div class="sidebar-item5">
-            <div class="sidebar-item-item"></div>
-            <img
-              class="arrowlineright2-icon10"
-              alt=""
-              src="./public/arrowlineright21.svg"
-            />
+              <div class="text26" id="health_all" >All Requests</div>
+            </div>
 
-            <img class="calendarplus-icon" alt="" src="./public/notebook.svg" />
 
-            <div class="text26">All Requests</div>
-          </div>
           <div class="sidebar-item1">
             <img class="buildings-icon" alt="" src="./public/book1.svg" />
 
@@ -134,6 +116,26 @@
             />
           </div>
         </div>
+      </div>
+     
+
+      <div class="footer">
+        <div class="copyright">© 2023 LIOUS HealthCare Pvt. Ltd.</div>
+        <div class="tab12">
+          <div class="tab13">
+            <div class="date-requested">About</div>
+            <div class="tab1-item"></div>
+          </div>
+          <div class="tab13">
+            <div class="date-requested">Support</div>
+            <div class="tab1-item"></div>
+          </div>
+          <div class="tab13">
+            <div class="date-requested">Contact Us</div>
+            <div class="tab1-item"></div>
+          </div>
+        </div>
+      </div>
       </div>
 
 
@@ -160,6 +162,32 @@
             poc_manage.addEventListener('click', function() {
             const pageURL = 'https://www.google.com'; 
             window.location.href = pageURL;
+            });
+
+            const health_active = document.getElementById('health_active');
+            health_active.addEventListener('click', function() {
+            const pageURL = 'https://www.google.com'; 
+            window.location.href = pageURL;
+            });
+
+            const health_all = document.getElementById('health_all');
+            health_all.addEventListener('click', function() {
+            const pageURL = 'https://www.google.com'; 
+            window.location.href = pageURL;
+            });
+
+            const health = document.getElementById('health');
+            health.addEventListener('click', function() {
+            const sub_healthcheck = document.getElementsByClassName('sub-healthcheck');
+              Array.from(sub_healthcheck).forEach(function(value){
+
+              if (value.style.display === "none") {
+              value.style.display = "block";
+              } 
+              else {
+                value.style.display = "none";
+              }
+              })
             });
 
      </script>
