@@ -1,0 +1,298 @@
+.byewind-icon2 {
+    position: relative;
+    border-radius: var(--br-781xl);
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  .text21 {
+    position: relative;
+    line-height: 20px;
+  }
+  .avatar-name1 {
+    border-radius: var(--br-5xs);
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-9xs) var(--padding-5xs) var(--padding-9xs)
+      var(--padding-9xs);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+    z-index: 0;
+  }
+  .byewind-fang1 {
+    flex: 1;
+    position: relative;
+    line-height: 20px;
+    display: none;
+    align-items: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: 20px;
+    z-index: 1;
+  }
+  .arrowlinedown2-icon3 {
+    position: absolute;
+    margin: 0 !important;
+    top: calc(50% - 8px);
+    right: 4px;
+    width: 16px;
+    height: 16px;
+    display: none;
+    z-index: 2;
+  }
+  .avatar-name-icon1 {
+    position: absolute;
+    width: calc(100% - 40px);
+    right: 20px;
+    bottom: 28px;
+    left: 20px;
+    border-radius: var(--br-5xs);
+    height: 32px;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-11xs) 0;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+  }
+  .lious-healthcare-logo-1 {
+    position: absolute;
+    top: 28px;
+    left: calc(50% - 48.64px);
+    width: 97.28px;
+    height: 39.86px;
+    object-fit: cover;
+  }
+  .text22 {
+    position: relative;
+    line-height: 20px;
+    z-index: 1;
+    color: black;
+    cursor: pointer;
+  }
+  .arrowlineright2-icon5 {
+    position: absolute;
+    margin: 0 !important;
+    top: calc(50% - 8px);
+    right: 12px;
+    width: 16px;
+    height: 16px;
+    display: none;
+    z-index: 2;
+  }
+  .sidebar-item {
+    align-self: stretch;
+    border-radius: var(--br-5xs);
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-xs);
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    gap: var(--gap-xs);
+  }
+  .sidebar-item:hover{
+    background-color: var(--black-5);
+    color: black;
+  }
+  .sidebar-item1:hover{
+    background-color: var(--black-5);
+    color: black;
+  }
+  .sidebar-item4:hover{
+    background-color: var(--black-5);
+    color: black;
+  }
+  .sidebar-item5:hover{
+    background-color: var(--black-5);
+    color: black;
+  }
+  .buildings-icon {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    z-index: 0;
+  }
+  .organizational {
+    margin: 0;
+  }
+  .sidebar-item1 {
+    align-self: stretch;
+    border-radius: var(--br-5xs);
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-xs);
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    gap: var(--gap-xs);
+  }
+  .arrowlineright2-icon9,
+  .sidebar-item-child {
+    position: absolute;
+    top: calc(50% - 8px);
+    height: 16px;
+  }
+  .sidebar-item-child {
+    left: 0;
+    border-radius: var(--br-10xs);
+    background-color: var(--black-100);
+    width: 4px;
+  }
+  .arrowlineright2-icon9 {
+    left: 8px;
+    width: 16px;
+  }
+  .calendarplus-icon,
+  .text26 {
+    position: absolute;
+    top: calc(50% - 10px);
+  }
+  .calendarplus-icon {
+    left: 28px;
+    width: 20px;
+    height: 20px;
+  }
+  .text26 {
+    left: 52px;
+    line-height: 20px;
+    cursor: pointer;
+  }
+  .sidebar-item4 {
+    align-self: stretch;
+    position: relative;
+    border-radius: var(--br-5xs);
+    background-color: white;
+    height: 28px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .arrowlineright2-icon10,
+  .sidebar-item-item {
+    position: absolute;
+    top: calc(50% - 8px);
+    height: 16px;
+    display: none;
+  }
+  .sidebar-item-item {
+    left: 0;
+    border-radius: var(--br-10xs);
+    background-color: var(--black-100);
+    width: 4px;
+  }
+  .arrowlineright2-icon10 {
+    left: 8px;
+    width: 16px;
+  }
+  .sidebar-item5 {
+    align-self: stretch;
+    position: relative;
+    border-radius: var(--br-5xs);
+    height: 28px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .container {
+    position: absolute;
+    width: calc(100% - 32px);
+    top: 88px;
+    right: 16px;
+    left: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-9xs);
+  }
+  .sidebar-b {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: var(--white-100);
+    border-right: 1px solid var(--black-10);
+    box-sizing: border-box;
+    width: 212px;
+    font-size: var(--regular-size);
+  }
+  .copyright {
+    position: relative;
+    top: 27px;
+    left: 28px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .tab1-item {
+    align-self: stretch;
+    position: relative;
+    border-top: 2px solid var(--black-100);
+    box-sizing: border-box;
+    height: 2px;
+    display: none;
+  }
+  .tab13 {
+    border-radius: var(--br-5xs);
+    display: flex;
+    flex-direction: column;
+    padding: var(--padding-9xs) var(--padding-5xs);
+    justify-content: center;
+    font-size: var(--regular1-size);
+  }
+  .tab12,
+  .tab13,
+  .tab42 {
+    align-items: flex-start;
+    gap: var(--gap-9xs);
+  }
+  .tab42 {
+    border-radius: var(--br-5xs);
+    display: none;
+    flex-direction: column;
+    padding: var(--padding-9xs) var(--padding-5xs);
+    justify-content: center;
+  }
+  .tab12 {
+    position: absolute;
+    top: 27px;
+    right: 41px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: var(--regular-size);
+  }
+  .healthcheckup-management {
+    background-color: var(--white-100);
+    overflow: hidden;
+  }
+  .footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 212px;
+    height: 72px;
+    color: var(--black-40);
+  } 
+  .healthcheckup-management {
+    position: relative;
+    border-radius: var(--br-base);
+    width: 1440px;
+    height: 1024px;
+    text-align: left;
+    font-size: var(--regular1-size);
+    color: var(--black-100);
+    font-family: var(--regular);
+  }
+  .date-requested {
+    position: relative;
+    line-height: 18px;
+  }
+  
