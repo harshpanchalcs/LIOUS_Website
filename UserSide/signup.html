@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./signup.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="signup">
+      <div class="form-container">
+        <div class="form4">
+          <div class="title5">Company Name</div>
+          <input type="text" class="text12" id="Company_Name" placeholder="Name of Your Company"></input>
+        </div>
+        <div class="form5">
+          <div class="title5">CIN No. of the Company</div>
+          <input type="text" class="text12" id="Company_CIN" placeholder="Enter CIN No."></input>
+        </div>
+        <div class="form6">
+          <div class="title5">Your Full Name</div>
+          <input type="text" class="text12" id="Name" placeholder="Enter Your Name here"></input>
+        </div>
+        <div class="form7">
+          <div class="title5">Your Email ID</div>
+          <input type="text" class="text12" id="Email_Id" placeholder="Enter Your Email ID here"></input>
+        </div>
+        <div class="form8">
+          <div class="title5">Set Up a New Password</div>
+          <input type="password" class="text12" id="New_Password" placeholder="Password has to be at least 8 digits"></input>
+        </div>
+        <div class="form9">
+          <div class="title5">Confirm your Password</div>
+          <input type="password" class="text12" id="Login_Password" placeholder="Enter Same Password as above"></input>
+        </div>
+
+        <!-- <img class="checksquare-icon1" alt="" src="./public/checksquare.svg" /> -->
+        <div class="checksquare-icon1">
+          <input type="checkbox" id="Accept_Terms" required>
+        </div>
+
+        <div class="form10">
+          <div class="title5">Your Contact Number</div>
+          <input type="text" class="text12" id="Contact_No" value="+91 "></input>
+        </div>
+
+        <div class="button-container">
+          <div class="button4" type="button" id="continue">
+            <div class="text19">Continue</div>
+          </div>
+          <div class="button5" type="button" id="back_to_login">
+            <div class="text20">Back to Login</div>
+          </div>
+        </div>
+        <div class="create-a-new">Create A New Account</div>
+        <img
+          class="arrowleft-icon2"
+          alt=""
+          src="./public/arrowleft.svg"
+          id="arrowLeftIcon"
+        />
+      </div>
+      <img
+        class="lious-healthcare-logo-12"
+        alt=""
+        src="./public/lious-healthcare-logo-1@2x.png"
+      />
+
+      <div class="by-creating-an-container1">
+        <span class="by-creating-an1"
+          >By creating an account, I agree to our
+        </span>
+        <a class="terms-of-use1" href="google.com">Terms of Use</a>
+        <span class="span4"> </span>
+        <span class="by-creating-an1">&</span>
+        <span class="span4"> </span>
+        <a class="terms-of-use1" href="google.com">Privacy Policy</a>
+        <span class="span4"> </span>
+      </div>
+    </div>
+
+    <script>
+      var arrowLeftIcon = document.getElementById("arrowLeftIcon").addEventListener("click", function (event) {
+          window.location.href = "./login.html";
+        });
+      
+      var arrowLeftIcon = document.getElementById("continue").addEventListener("click", function (event) {
+          window.location.href = "./verify.html";
+        });
+
+      var arrowLeftIcon = document.getElementById("back_to_login").addEventListener("click", function (event) {
+          window.location.href = "./login.html";
+        });
+    </script>
+  </body>
+</html>
